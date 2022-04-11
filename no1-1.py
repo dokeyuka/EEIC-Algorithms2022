@@ -3,8 +3,7 @@ N, M = map(int, input().split())
 A = [int(a) for a in input().split()]
 
 index = 0
-tmp, max_sum, cnt = 0, 0, 0
-diff_list = []
+tmp, max_sum = 0, 0
 
 for i in range(N):
     

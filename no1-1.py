@@ -5,7 +5,7 @@ A = [int(a) for a in input().split()]
 index = 0
 tmp, max_sum, cnt = 0, 0, 0
 diff_list = []
-#差のリストを作る
+
 for i in range(N):
     
     if(i == 0):
